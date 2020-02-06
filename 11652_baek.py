@@ -10,4 +10,6 @@ for i in range(first):
     else:
         count[n] = 1
 
-print(max(count.items(), key=lambda x:x[1]*1000000-x[0])[0])
+
+
+
