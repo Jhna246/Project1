@@ -14,3 +14,14 @@ B: B Delete the character to the left of the cursor (ignored if the cursor is at
 P $: Add the character P $ $ to the left of the cursor
 
 Given a string initially entered in the editor, followed by a sequence of commands entered, write a program to get the string entered in the editor after performing all commands. However, before the command is executed, the cursor is said to be at the end of the sentence.
+
+Example: 
+Input:
+abcd
+3
+P x
+L
+P y
+
+Output:
+abcdyx
