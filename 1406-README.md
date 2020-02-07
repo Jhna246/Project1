@@ -19,13 +19,9 @@ Example:
 Input:
 
 abcd
-
 3
-
 P x
-
 L
-
 P y
 
 Output:
