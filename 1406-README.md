@@ -5,8 +5,12 @@ This editor has a cursor called 'cursor', which is placed at the beginning of th
 The editor supports the following commands.
 
 L Moves cursor one space to the left (ignored if cursor is at the beginning of a sentence)
+
 D Moves cursor one space to the right (ignored if cursor is at end of sentence)
+
 B Delete the character to the left of the cursor (ignored if the cursor is at the beginning of a sentence)
   The delete appears to move the cursor one space to the left, but the character that was actually to the right of the cursor remains the same
+  
 Add the character P $ $ to the left of the cursor
+
 Given a string initially entered in the editor, followed by a sequence of commands entered, write a program to get the string entered in the editor after performing all commands. However, before the command is executed, the cursor is said to be at the end of the sentence.
