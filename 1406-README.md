@@ -15,14 +15,13 @@ P $: Add the character P $ $ to the left of the cursor
 
 Given a string initially entered in the editor, followed by a sequence of commands entered, write a program to get the string entered in the editor after performing all commands. However, before the command is executed, the cursor is said to be at the end of the sentence.
 
-Example: 
-Input:
-
+Example: <br />
+Input:<br />
 abcd<br />
 3<br />
 P x<br />
 L<br />
 P y<br />
 
-Output:
+Output:<br />
 abcdyx
