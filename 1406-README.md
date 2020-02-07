@@ -17,10 +17,15 @@ Given a string initially entered in the editor, followed by a sequence of comman
 
 Example: 
 Input:
+
 abcd
+
 3
+
 P x
+
 L
+
 P y
 
 Output:
