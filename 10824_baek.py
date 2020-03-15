@@ -1,6 +1,6 @@
 import sys
 
 a, b, c, d = sys.stdin.readline().split()
-pt1 = sum([int(a), int(c)])
-pt2 = sum([int(b), int(d)])
-print(pt1, pt2, sep='')
+pt1 = str(a) + str(b)
+pt2 = str(c) + str(d)
+print(int(pt1) + int(pt2))
